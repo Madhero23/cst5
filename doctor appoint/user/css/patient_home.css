@@ -167,15 +167,19 @@
   }
   
   /* Hero Section */
+
+  
   .hero {
     height: 90vh;
     display: flex;
     align-items: center;
     padding-top: 80px;
-    background: linear-gradient(135deg, rgba(74, 107, 223, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+
   }
   
+  
   .hero-content {
+    
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
@@ -246,6 +250,7 @@
   .specialists {
     padding: 5rem 2rem;
     background-color: var(--color-light);
+    
   }
   
   .section-title {
