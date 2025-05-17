@@ -1,0 +1,490 @@
+body { 
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 90px;
+}
+.navigation-container {
+    height:17%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1b3c3d;
+    z-index: 1000; 
+}    
+
+.logo {
+
+   width:20%
+}
+
+.nav-bar  { 
+    display: flex;
+}
+.logo-nav  {
+    width: 8%;
+    padding-left: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navigations {
+    display: flex;
+    padding-left: 28vw;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navi-bar a { 
+    list-style: none;
+    color: rgb(190, 196, 106);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+
+}
+.navi-bar  {
+    gap: 17px;
+    display: flex;
+}
+.hero-section  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bread-container img { 
+  
+    width: 100%;
+}
+.paragraph-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-container { 
+    color: #1d2939;
+    text-align: center;
+    text-transform: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #1b3c3d;
+    line-height: 60px;
+    margin: 20px;
+}
+.paragraph-container p { 
+    font-size: 25px;
+    line-height: 0;
+}
+.paragraph-container a { 
+    list-style: none;
+    color: #1b3c3d;
+    font-size: 20px;
+}
+.image-section-2 { 
+    display: flex;
+    padding-top: 30px;
+}
+.image-container-2 {
+    display: flex;
+    flex-direction: row;
+}
+.image-container-2 img { 
+    width:90%;
+}
+.section-pic2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.container-para h1{ 
+    text-align: center;
+    color: #1d2939;
+    text-align: center;
+    text-transform: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.container-para p { 
+    margin: 20px;
+    font-size: 17px;
+    font-family: "Kanit", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.submit {
+    padding: 10px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+.bread {
+    padding-left: 20px;
+
+}
+.products-section { 
+    display: flex;
+    flex-direction: row;
+   
+}
+.products-container { 
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 20px;
+}
+.products-container img { 
+    width: 27%;
+}
+.best-sellers { 
+    padding-top: 60px;
+    color: #1d2939;
+    text-align: center;
+    text-transform: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1b3c3d;
+}
+.name-section { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.name-container { 
+    display: flex;
+    text-align: center;
+    gap: 290px;
+    padding-right: 4%;
+}
+.add-to-cart{
+    padding: 8px 12px;
+    background-color: rgb(234, 234, 234);
+    color: #1b3c3d;
+}
+    
+.cart-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  
+
+.button-container { 
+    justify-content: center;
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.soup-section-images { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.soup-container-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.soup-container-images img { 
+    width: 27%;
+    display: flex;
+}
+
+.soup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 168px; 
+    flex-wrap: wrap; 
+}
+
+.soup-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    width: 250px; 
+}
+
+.name-product {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.add {
+    padding: 8px 12px;
+    background-color: rgb(234, 234, 234);
+    color: #1b3c3d;
+    height: 10%;
+    
+    
+ 
+}
+.opening-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px;
+    padding: 20px 20px;
+    background-color: #1b3c3d;
+}
+
+.logo {
+   width: 20%;
+   
+
+}
+
+.opening-times {
+    text-align: left; 
+    color: rgb(190, 196, 106);
+}
+
+.opening-times h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+}
+
+.opening-times .day {
+    font-weight: bold;
+    display: inline-block;
+    width: 70px; 
+}
+
+.opening-times .time {
+    display: inline-block;
+}
+
+
+
+@keyframes slideInRight {
+    from { 
+        transform: translateX(300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+    
+}
+.container-para p { 
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
+    transform: translateX(300px);
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0.5;
+        scale: 0;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+    
+}
+.image-container-2 { 
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: 0% cover 40%;
+}
+.best-sellers p {
+    font-size: 18px;
+
+}
+
+.navigations {
+    display: flex;
+    justify-content: center;
+    padding-left: 28vw;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.navi-bar { 
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.navi-bar a { 
+    list-style: none;
+    color: rgb(190, 196, 106);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+
+}
+
+.contact {
+    padding: 7%;
+}
+.contact i {
+    color: rgb(190, 196, 106);
+    padding-right: 10px;
+}
+.contact p { 
+    font-size: 20px;
+    color: rgb(207, 203, 203);
+}
+
+.contact h1 {
+    text-align: center;
+        color: rgb(190, 196, 106);
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+        font-weight: 400;
+
+}
+.submit a { 
+    list-style: none;
+    text-decoration: none;
+    color: #1b3c3d;
+}
+
+/* Updated Refund Section Styles */
+.refund-section {
+    background: linear-gradient(to right, #1b3c3d, #2a5657);
+    padding: 60px 0;
+    margin: 60px 0 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.refund-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.refund-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(27, 60, 61, 0.1);
+    transform: skewY(-3deg);
+    z-index: -1;
+}
+
+.refund-container h2 {
+    color: rgb(190, 196, 106);
+    font-family: 'Palatino Linotype', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.refund-container p {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.refund-container a {
+    color: rgb(190, 196, 106);
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.refund-container a:hover {
+    color: #fff;
+}
+
+.refund-btn {
+    background-color: rgb(190, 196, 106);
+    color: #1b3c3d;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.refund-btn:hover {
+    background-color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.refund-btn:active {
+    transform: translateY(0);
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+    .refund-container {
+        padding: 20px;
+    }
+    
+    .refund-container h2 {
+        font-size: 28px;
+    }
+    
+    .refund-container p {
+        font-size: 16px;
+    }
+    
+    .refund-btn {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+}

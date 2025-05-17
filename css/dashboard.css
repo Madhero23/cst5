@@ -1,0 +1,100 @@
+.stats-card {
+    border-radius: 15px;
+    background: linear-gradient(135deg, var(--start-color) 0%, var(--end-color) 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.stats-card.sales { --start-color: #2193b0; --end-color: #6dd5ed; }
+.stats-card.orders { --start-color: #ee0979; --end-color: #ff6a00; }
+.stats-card.stock { --start-color: #11998e; --end-color: #38ef7d; }
+.stats-card.refunds { --start-color: #f953c6; --end-color: #b91d73; }
+
+.stats-card .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    opacity: 0.2;
+}
+
+.stats-card .value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.stats-card .label {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.chart-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-container h4 {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.recent-orders {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.recent-orders .table {
+    margin: 0;
+}
+
+.recent-orders th {
+    background: #f8f9fa;
+    font-weight: 600;
+    border: none;
+}
+
+.recent-orders td {
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+
+.status-badge {
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.status-badge.completed { background: #d4edda; color: #155724; }
+.status-badge.pending { background: #fff3cd; color: #856404; }
+.status-badge.cancelled { background: #f8d7da; color: #721c24; }
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease;
+}
+
+@media (max-width: 768px) {
+    .stats-card .value {
+        font-size: 2rem;
+    }
+    
+    .stats-card .icon {
+        font-size: 2rem;
+    }
+}

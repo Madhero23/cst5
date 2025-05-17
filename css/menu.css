@@ -1,0 +1,125 @@
+.menu-container {
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+.product-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+    background: white;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.product-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background: #f8f9fa;
+    border-radius: 15px 15px 0 0;
+}
+
+.price-tag {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: rgba(13, 110, 253, 0.1);
+}
+
+.ingredients-list {
+    padding: 15px;
+    margin: 10px 0;
+    background: #f8f9fa;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.stock-badge {
+    font-size: 0.8em;
+    padding: 8px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stock-info {
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid #eee;
+}
+
+.filters {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.category-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #2c3e50;
+    position: relative;
+}
+
+.category-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background: #0d6efd;
+    border-radius: 2px;
+}
+
+.action-buttons .btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+.action-buttons .btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Status badges */
+.status-Available { background-color: #28a745; color: white; }
+.status-OutOfStock { background-color: #dc3545; color: white; }
+
+/* Search bar enhancements */
+.search-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 12px 20px;
+    padding-left: 45px;
+    border-radius: 25px;
+    border: 2px solid #e9ecef;
+    transition: all 0.3s;
+}
+
+.search-box input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.search-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}

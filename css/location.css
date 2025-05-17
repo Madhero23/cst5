@@ -1,0 +1,110 @@
+body { 
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+ .buttonz {
+        background-color: #1b3c3d;
+        padding: 7px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .log-in { 
+        display: flex;
+       padding-left:300px;
+
+    }
+    .location-title h1 { 
+        display: flex;
+        text-align: center;
+        padding-top: 30px;
+        justify-content: center;
+        font-size: 40px;
+        color: #1b3c3d;
+    }
+
+    .contact-numbers {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 100px;
+        padding-left: 200px;
+        gap: 200px;
+    }
+    
+    .informations p { 
+        font-size: 18px;
+        text-decoration: none;
+        font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+        font-weight: 400;
+        color: #1b3c3d;
+    
+        
+        
+    }
+    .map-container img {
+        width: 89%;
+    }
+  
+    .informations h1 {
+        padding-bottom: 20px;
+        font-size: 40px;
+        color: #1b3c3d;
+    }
+    .informations i {
+        font-size: 15px;
+    }
+
+    .opening-container {
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly; 
+        gap: 50px;
+        padding: 20px 20px;
+        background-color: #1b3c3d;
+    }
+    
+    .logo {
+       width: 20%;
+       
+    
+    }
+    
+    .opening-times {
+        text-align: left; 
+        color: rgb(190, 196, 106);
+    }
+    
+    .opening-times h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+        font-weight: 400;
+    }
+    
+    .opening-times .day {
+        font-weight: bold;
+        display: inline-block;
+        width: 70px; 
+    }
+    
+    .opening-times .time {
+        display: inline-block;
+    }
+    .contact { 
+        color: rgb(190, 196, 106);;
+    }
+    
+    .google {
+        padding: 10px;
+        min-width:190px;
+        border-radius: 15px;
+
+    }
+    .google a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    

@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    background: #f5f5f5;
+}
+
+.sidebar {
+    position: fixed; /* Fix sidebar position */
+    top: 0;
+    left: 0;
+    width: 250px; /* Set a fixed width */
+    height: 100vh; /* Full height */
+    background-color: #2d3a3b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent unwanted scrolling */
+    transition: none; /* Remove any transition that might cause shifting */
+}
+
+
+.logo {
+    height: 80px;
+    padding: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover,
+.active {
+    background: #e0e0e058;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu a span {
+    overflow: hidden;
+}
+
+.menu a i {
+    font-size: 1.2rem;
+}
+
+.main-content {
+    margin-left: 250px; /* Offset by the sidebar width */
+    padding: 20px;
+    width: calc(100% - 250px); /* Ensure content doesn't overlap */
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header-title {
+    color: rgb(72, 81, 72);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-box {
+    background: #f5f5f5;
+    border-radius: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+}
+
+.search-box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.search-box i:hover {
+    transform: scale(1.2);
+}
+
+.card-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main-title {
+    color: rgba(113, 99, 186, 255);
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.payment-card {
+    background: rgb(229, 223, 223);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 290px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.payment-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.amount-value {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.icon {
+    color: #fff;
+    padding: 1rem;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.card-detail {
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.light-red {
+    background: rgb(254, 226, 254);
+}
+
+.light-purple {
+    background: rgb(236, 236, 254);
+}
+
+.light-green {
+    background: rgb(235, 254, 235);
+}
+
+.light-blue {
+    background: rgb(236, 236, 254);
+}
+
+.dark-red {
+    background: rgb(97, 37, 37);
+}
+
+.dark-purple {
+    background: rgb(66, 33, 66);
+}
+
+.dark-green {
+    background: rgb(52, 79, 52);
+}
+
+.dark-blue {
+    background: rgb(25, 25, 47);
+}
+
+/* Dashboard Section */
+.dashboard {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.dashboard h2 {
+    color: rgba(113, 99, 186, 255);
+    margin-bottom: 1.5rem;
+}
+
+/* Metrics Cards */
+.metrics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.metrics-cards .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1 1 calc(25% - 1rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.metrics-cards .card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-header i {
+    font-size: 1.5rem;
+    color: rgba(113, 99, 186, 255);
+}
+
+.card-header h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card-body .card-detail {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Charts Section */
+.charts {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.charts .chart {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1 1 calc(50% - 1rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.charts .chart h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Notification Panel */
+.notification-panel {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notification-panel h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.notification-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.notification-panel ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.notification-panel ul li i {
+    color: #372222;
+}
+
+.notification-panel ul li span {
+    font-size: 0.9rem;
+    color: #555;
+}

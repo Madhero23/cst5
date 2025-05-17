@@ -1,0 +1,86 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-group {
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+.refund-reasons label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.checkbox-group input {
+    width: 18px;
+    height: 18px;
+}
+
+
+.submit-btn {
+    background: #2a9d8f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background: #21867a;
+}
+.title { 
+    text-align: center;
+    padding-top: 30px;
+    font-family: Alpino, sans-serif;
+    font-size:20px;
+    font-weight: 900;
+}
+
+label {
+    font-family: Hauora, sans-serif;
+    font-size:14px;
+    font-weight: 400;
+}
+.reason {
+    font-family: Hauora, sans-serif;
+    font-size:15px;
+
+    font-weight: bold;
+}

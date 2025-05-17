@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.attendance-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.attendance-header select {
+    width: 100px;
+}
+
+.employee-profiles {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 100px; /* or any preferred size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.attendance-table {
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+.table {
+    width: 100%;
+    padding-left: 2cm;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.form-select {
+    width: 50rem;
+    background-color: rgb(91, 135, 106);
+}
+
+.form-select:hover {
+   animation-delay: 2ms;
+   animation: composition 1px; ;
+   background-color: rgb(149, 206, 168);
+}
+
+.btn {
+    background-color:rgb(91, 135, 106);
+    border: rgb(91, 135, 106);
+}
+
+.btn:hover {
+   background-color: rgb(119, 133, 123);
+}
+
+.p {
+    font-size: small;
+}

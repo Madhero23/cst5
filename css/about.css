@@ -1,0 +1,293 @@
+body { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.opening-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    background-color: #1b3c3d;
+}
+
+
+
+.opening-times {
+    text-align: left; 
+    color: rgb(190, 196, 106);
+}
+
+.opening-times h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+}
+
+.opening-times .day {
+    font-weight: bold;
+    display: inline-block;
+    width: 70px; 
+}
+
+.opening-times .time {
+    display: inline-block;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+
+    flex-direction: row-reverse;
+
+
+}
+.hero-container img {
+    width: 700px;
+    height: 800px;
+    padding-left: 40px;
+    border-radius: 14px;
+}
+
+.title-section { 
+    padding-left: 16px;
+}
+.about { 
+    font-size: 20px;
+    color: #1b3c3d;
+    padding-top: 50px;
+    
+}
+.title-container h1 { 
+    font-family: Alpino, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.title-container p {
+    font-family: Hauora, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 1.667em;
+}
+.title-container { 
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+.meet-container { 
+    display: flex;
+    gap: 20px;
+}
+.meet-button {
+    padding: 10px;
+    min-width: 200px;
+    background-color: #1b3c3d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.meet-button:hover {  
+    background-color: aliceblue;
+    color: #1b3c3d; 
+}
+
+.story {
+    min-width: 200px;
+    cursor:pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+    
+}
+
+.story:hover {
+    background-color: #1b3c3d;
+    color:white;
+}
+.story-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.story-section img {
+    width: 50vw;
+    height: auto;
+    border-radius: 14px;
+}
+.container-story h1 { 
+    text-align: center;
+    font-family: Alpino, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+
+}
+.section-story  {
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+.container-story p {
+    font-family: Hauora, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 1.667em;
+}
+.team-container h2 { 
+    
+    font-family: Hauora, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1b3c3d;
+    padding-top:20px ;
+
+}
+.team-container h1 {
+    font-family: Alpino, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.team-container p {
+    font-family: Hauora, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+ 
+}
+.the-team-section {
+    padding: 50px 50px;
+    background-color: rgb(199, 202, 136);
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+.team-images { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.team-images img {
+    height:350px;
+    width: 250px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+.group-image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.group-image-card p {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+
+
+.buttonz {
+    background-color: #1b3c3d;
+    padding: 7px;
+    width: 120px;
+    border-radius: 10px;
+}
+.log-in { 
+    display: flex;
+   padding-left:300px;
+}
+
+
+
+
+.team-names { 
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+
+}
+.team-names p {
+
+    padding-left:180px;
+}
+
+
+
+
+.contact {
+    color: rgb(190, 196, 106);
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  #meet {
+    padding: 100px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+
+.refund-section { 
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+.refund-container h1  {
+    text-align: center; 
+    font-family: Alpino, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.refund-container p {
+    text-align: center;
+    font-family: Hauora, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.10em;
+}
+
+.submit-btn { 
+    padding: 10px;
+    background-color: #1b3c3d;
+
+}
+
+.refund-button {
+    padding-bottom: 18px;
+    display: flex;
+
+    justify-content: center;
+}
+
+
+.refund-container p {
+    margin: 30px;
+}
+.refund-button a { 
+    list-style: none;
+    text-decoration: none;
+    color: rgb(249, 243, 243);
+}
